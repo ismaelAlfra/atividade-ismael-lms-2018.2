@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plenus</title>
+    <link rel="stylesheet" href="plenus.css">
+    <link rel="plenus icon" href="plenusicon.png"/>
+</head>
+<body>
+    <nav class="menu-principal">
+        <header class="logo">
+           <a href=""><img src="./logo-plenus.png" alt="logo_plenus" name="Plenus"></a>
+        </header>
+        <div class="botao-menu">
+            <ul>
+                <div class="botao-aparece">
+                    <li class="produzir">
+                        <h2>Produzir</h2>
+                    </li>
+                </div>  
+                <div class="botao">
+                    <li class="ampliar">
+                        <h2>Ampliar</h2>
+                    </li>
+                </div>  
+                <div class="botao">
+                    <li class="diva">
+                        <h2>Divã</h2>
+                    </li>
+                </div> 
+                <div class="botao">
+                    <li>
+                        <h2>Sucesso</h2>
+                    </li>
+                </div>
+                <div class="botao">
+                    <li>
+                        <h2>Plenus</h2>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="sub-menu">
+        <div class="elemento-direita">
+            <div class="botao-hab">
+                <p>
+                    Hábitos
+                </p>
+            </div>
+            <div class="busca">
+                <img id="img-pesquisar" src="pesquisar-rosa.png" alt="">
+                <input type="text" id="txt-busca" placeholder="Buscar..."/>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="sub1">
+                <ul>
+                    <li><a href=""><h2>Gerenciador</h2></a></li>
+                    <li><a href=""><h2>Mentor</h2></a></li>
+                    <li><a href=""><h2>Sugestão</h2></a></li>
+                </ul>
+            </div>
+            <div class="sub2">
+                <ul>
+                    <li><a href=""><h2>Meditação</h2></a></li>
+                    <li><a href=""><h2>Alimentação</h2></a></li>
+                    <li><a href=""><h2>Respiração</h2></a></li>
+                    <li><a href=""><h2>Fitness</h2></a></li>
+                    <li><a href=""><h2>Ioga</h2></a></li>
+                </ul>
+            </div>    
+            <div class="sub3">
+                <ul>
+                    <li><a href=""><h2>Ansiedade</h2></a></li>
+                    <li><a href=""><h2>Autoestima</h2></a></li>
+                    <li><a href=""><h2>Stress</h2></a></li>
+                    <li><a href=""><h2>Depressão</h2></a></li>
+                    <li><a href=""><h2>Dependência</h2></a></li>
+                    <li><a href=""><h2>Fadiga</h2></a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    <div class="fase">
+        <div class="fase1">
+            <div class="titulo-div t1">
+                <p>
+                    1ª Fase
+                </p>
+            </div>
+            
+        </div>
+        <div class="fase2">
+            <div class="titulo-div t2">
+                <p>
+                    2ª Fase
+                </p>
+            </div>   
+        </div>
+        <!-- <div class="fase3">
+            <div class="titulo-div t3">
+                <p>
+                    3ª Fase
+                </p>
+            </div>    
+        </div> -->
+        <div class="adq">
+            <div class="titulo-div t4">
+                <p>
+                    Adquirido
+                </p>
+            </div>   
+        </div>
+        <div class="add" name="Add Hábito">
+            <div class="cruz1"></div>
+            <div class="cruz2"></div>
+        
+        </div>
+        <div class="fundo-escuro">
+
+        </div>
+        <div class="formulario">
+            <form action="">
+               Nome do Hábito<input type="text" class="nome" name="nome">
+                Categoria<input type="text" name="categoria">
+                <br>
+                Rotina <input type="text" name="especifico">
+                <input type="text" name="proposito">
+                <br>
+                Recompenssa <input type="text" name="recompenssa">
+                <br>
+                <div class="check">
+                    Deixa
+                    <br>
+                    <input type="checkbox" id="dom">
+                    <label for="dom" class="semana"><p>Dom</p></label>
+                    <input type="checkbox" id="seg">
+                    <label for="seg" class="semana"><p>Seg</p></label>
+                    <input type="checkbox" id="ter">
+                    <label for="ter" class="semana"><p>Ter</p></label>
+                    <input type="checkbox" id="qua">
+                    <label for="qua" class="semana"><p>Qua</p></label>
+                    <input type="checkbox" id="qui">
+                    <label for="qui" class="semana"><p>Qui</p></label>
+                    <input type="checkbox" id="sex">
+                    <label for="sex" class="semana"><p>Sex</p></label>
+                    <input type="checkbox" id="sab">
+                    <label for="sab" class="semana"><p>Sab</p></label>
+                </div>
+                <input type="time" name="horas" id="horas">
+                <br>
+                Lugar <input type="text" name="lugar">
+                <br>
+                Reforçador <input type="text" name="reforco">
+                <br>
+                Notificação <input type="text" name="notifica">
+                <br>
+                Meta <input type="text" name="meta">
+                <p class="meta">Global</p><p class="meta">Específico</p>
+                
+            </form>
+            <div class="botoes-form">
+                <p class="form-buttom" id="salvar"> Salvar</p>
+                <p class="form-buttom" id="executar">Executar</p>
+            </div>
+        </div>
+    </div>
+    <script src="./plenus.js"></script>
+</body>
+</html>
